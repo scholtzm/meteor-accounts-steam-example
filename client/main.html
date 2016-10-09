@@ -1,0 +1,22 @@
+<head>
+  <title>meteor-accounts-steam-example</title>
+</head>
+
+<body>
+  <h1>scholtzm:accounts-steam example</h1>
+
+  {{> main}}
+</body>
+
+<template name="main">
+  {{#if loggingIn}}
+    <div>Logging in...</div>
+  {{else}}
+    {{#if currentUser}}
+      <div>You are logged in as {{id}}!</div>
+      <button id="logout">Logout</button>
+    {{else}}
+      <button id="login">Log in with Steam</button>
+    {{/if}}
+  {{/if}}
+</template>
