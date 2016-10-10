@@ -1,4 +1,4 @@
-# Meteor example for account-steam
+# Meteor example for accounts-steam
 
 This is a basic example for [accounts-steam](https://github.com/scholtzm/meteor-accounts-steam).
 
